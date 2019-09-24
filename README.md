@@ -28,5 +28,5 @@ export CONFIG_DATABASE=root
 ---
 TODO  
 1.优化Docker支持  
-2.优化sql支持
+2.优化sql支持  
 3.优化raft内容和压测
