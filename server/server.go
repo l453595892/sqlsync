@@ -206,6 +206,7 @@ func (s *Server) insertHandler(w http.ResponseWriter, req *http.Request) {
 		http.Error(w, err.Error(), http.StatusBadRequest)
 	}
 }
+
 func (s *Server) updateHandler(w http.ResponseWriter, req *http.Request) {
 
 	// Read the value from the POST body.
@@ -227,6 +228,7 @@ func (s *Server) updateHandler(w http.ResponseWriter, req *http.Request) {
 		http.Error(w, err.Error(), http.StatusBadRequest)
 	}
 }
+
 func (s *Server) deleteHandler(w http.ResponseWriter, req *http.Request) {
 
 	// Read the value from the POST body.
